@@ -1,0 +1,33 @@
+---
+import { SITE_TITLE } from "../consts";
+---
+
+<div class="hero text-white w-full mt-20 lg:min-h-screen" id="top">
+    <div
+        style="backdrop-filter: blur( 1px); background-color: rgba(0, 0, 0, 0.65);"
+        class="p-5 lg:min-h-screen"
+    >
+        <div class="text-center mt-5 max-w-2xl mx-auto">
+            <h1 class="text-4xl lg:text-6xl">{SITE_TITLE}</h1>
+            <img src="/bikes-White.png" class="w-24 lg:w-48 mx-auto" alt="Flowbite Logo" />
+            <h1 class="text-xl lg:text-3xl my-5">
+                Manten tu bicicleta en perfectas condiciones con nuestro
+                servicio de mecánica especializado
+            </h1>
+            <h1 class="text-lg lg:text-2xl my-5">
+                En nuestro taller de bicicletas, ofrecemos servicios de mecánica
+                de alta calidad para todo tipo de bicicletas. Confía en nosotros
+                para mantener tu bicicleta siempre lista para rodar.
+            </h1>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    .hero {
+        background-image: url("../background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
